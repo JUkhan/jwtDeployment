@@ -1,0 +1,67 @@
+﻿<pre>
+
+&lt;grid options="vm.options" data="vm.data" &gt; &lt;/grid&gt;
+<code>
+	//controller
+	this.options={
+		   limit:10, loadingText:'loading...', filter:true,
+		    columns:[
+		      {field:'Action',  linkText:['Edit','Add'], 
+		      	onClick:[row=>{alert(row.Country);},row=>{alert(row.Country);}]}, 
+		      {field:'Name', sort:true, render:(row, inddex)=>'<b style="color:green">'+row.Name+'</b>'},
+		      {field:'Country', sort:true, onClick:row=>{alert(row.Country)}} ,
+		      {field:'Age', sort:true, style:{color:'red'}},
+		      {field:'spark', displayName:'Spark Line', spark:true, options:{type:'line'}}
+		        ]
+		};
+	loadData(){
+		SVC.get(this).getData().success(res=>{
+			this.data=angular.fromJson(res.data);
+			this.options.loadingText=null;
+		});
+	}
+	//service
+	getData(){
+	    var config={
+	        limit:50,
+	        columns:[
+	            {name:'Name', type:'human'},
+	            {name:'Country', type:'country'},
+	            {name:'Age', type:'int', min:20, max:60},
+	            {name:'spark', type:'int', array:true, limit:12, min:1, max:15}
+	            ]
+	    };
+	    return HTTP.get(this).post('jwt/getDummyData',config);
+	}
+}
+</code>
+
+&lt;sprk options="vm.options" data="vm.data" &gt; &lt;/sprk&gt;
+<code>
+sparkLine(){
+	    
+	    this.stprkData = [10,8,5,7,4,4];
+        this.sparkOptions ={
+            type: 'pie',
+            width: '200px',
+            height: '200px',            
+            borderWidth: 7,
+            borderColor: '#f5f5f5',
+            tooltipFormat: '<span style="color: {{color}}">&#9679;</span> {{offset:names}} ({{percent.1}}%)',
+            tooltipValueLookups: {
+                names: {
+                    0: 'Automotive',
+                    1: 'Locomotive',
+                    2: 'Unmotivated',
+                    3: 'Three',
+                    4: 'Four',
+                    5: 'Five'
+                    // Add more here
+                }
+            }
+        };
+        
+        
+}
+</code>
+</pre>
