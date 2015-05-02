@@ -82,6 +82,9 @@ var JwtGrid = React.createClass({
      } 
 	//do other stuff
 	options.className=options.className||'table table-bordered table-striped';	
+  if(options.onKeypressFilter===undefined){
+        options.onKeypressFilter=true;
+  }
   },
   onPageChange:function(pageNo){  	
 	this.setState({pageNo:pageNo});
@@ -140,7 +143,7 @@ var JwtGrid = React.createClass({
   		this.state.pageNo=1;
   		searchText=searchText.toLowerCase();  		 		
   		var colimns=this.props.options.columns, temp=[];
-  		this.setProps({data:this.props.data.filter(function(item, index){
+  		this.setProps({data:this.state.dataStorage.filter(function(item, index){
   			var flag=false;
   			for(var col of colimns){
   				if(col.field && item[col.field]){
@@ -152,7 +155,10 @@ var JwtGrid = React.createClass({
   		})}); 
   },
   onSearchChane:function(event){
-  		if(event.keyCode==13){this.onSearch();}
+  		if(event.keyCode==13){this.onSearch();return;}
+      if(this.props.options.onKeypressFilter){
+         setTimeout(this.onSearch, 0);
+      }
   },
   getFilter:function(options){
   	if(!options.filter){return null;}
