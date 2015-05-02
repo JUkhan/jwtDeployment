@@ -1,4 +1,6 @@
-﻿<div class="bg-info">grid properties</div>
+﻿
+<div style="height:500px;over-flow:auto">
+<div class="bg-info">grid properties</div>
 <ol class="list-group">
 	<li class="list-group-item">
 
@@ -13,15 +15,21 @@
 					<li class="list-group-item"><b>field</b> string type </li>
 					<li class="list-group-item"><b>displayName</b> string type </li>
 					<li class="list-group-item"><b>sort</b> bool type </li>
-					<li class="list-group-item"><b>spark</b> bool type </li>
-					<li class="list-group-item"><b>style</b> onject type. ex: <b>style:{width:'50px', color:'#333'}</b></li>
+					<li class="list-group-item"><b>style</b> object type ex: <b>style:{width:'200px', colot:'#333'}</b></li>
 					<li class="list-group-item"><b>className</b> string type </li>
 					<li class="list-group-item"><b>render</b> function type return string. 
 					ex: <b>render:(row, inddex)=>'&lt;b style="color:green"&gt;'+row.Name+'&lt;/b&gt;'</b></li>
-					<li class="list-group-item"><b>linkText</b> string/string of array type ex: <b>linkText:'Edit' or linkText:['Edit','Add']</b></li>
 					<li class="list-group-item"><b>onClick</b> function/function of array type ex: <b>onClick:row=>{alert(row.Country)} or 
 							onClick:[row=>{alert(row.Country);},row=>{alert(row.Country);}]
 					</b></li>
+					<li class="list-group-item"><b>linkText</b> string/string of array type ex: <b>linkText:'Edit' or linkText:['Edit','Add']</b></li>
+					
+					<li class="list-group-item"><b>spark</b> bool type </li>
+					<li class="list-group-item"><b>options</b> object type. 
+					ex: Please see the <a href="http://omnipotent.net/jquery.sparkline/#s-about">jQuery Sparklines</a></li>
+
+					
+					
 				</ol>
 			</li>
 		</ol>
@@ -44,3 +52,4 @@
 		
 	</li>
 </ol>
+</div>
