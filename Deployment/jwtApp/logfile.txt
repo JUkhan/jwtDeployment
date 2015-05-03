@@ -109,3 +109,13 @@
    at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
    at jwt.CodeGen.JwtFile.Write(String path, String content)
    at Jwtex.JwtExController.SaveFile(String mode, String directoryName, String fileName, String content)
+2015-05-03 14:53:57,023 [141] INFO  Jwtex.JwtExController - name:jwtComponents, mode:Modules
+2015-05-03 14:53:57,024 [141] INFO  Jwtex.JwtExController - files found: 4
+2015-05-03 14:55:48,191 [141] INFO  Jwtex.JwtExController - name:jwtComponents, mode:Modules
+2015-05-03 14:55:48,192 [141] INFO  Jwtex.JwtExController - files found: 4
+2015-05-03 14:57:16,861 [141] INFO  Jwtex.JwtExController - name:home, mode:Widgets
+2015-05-03 14:57:16,862 [141] INFO  Jwtex.JwtExController - files found: 3
+2015-05-03 14:57:59,307 [141] INFO  Jwtex.JwtExController - name:undefined, mode:Base
+2015-05-03 14:57:59,308 [141] INFO  Jwtex.JwtExController - files found: 5
+2015-05-03 14:58:10,090 [151] INFO  Jwtex.JwtExController - name:home, mode:Widgets
+2015-05-03 14:58:10,091 [151] INFO  Jwtex.JwtExController - files found: 3

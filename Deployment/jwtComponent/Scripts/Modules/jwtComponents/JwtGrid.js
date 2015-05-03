@@ -185,4 +185,4 @@ var JwtGrid = React.createClass({displayName: "JwtGrid",
   }
 });
 
-//export default JwtGrid;
+export default JwtGrid;
