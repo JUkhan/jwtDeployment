@@ -22,9 +22,8 @@ class homeCtrl extends BaseCtrl
             {"id": "normal", "title": "Normal"},
             {"id": "percent", "title": "Percent"}
           ];
-          this.soptions={type:'line'};
-          this.sdata=[2,5,3,8,9];
-          this.gridData=[{name:'Ali', id:101}];
+         
+         
 	}
   	loadData(){
       //SVC.get(this).getData().success(data=>{this.list= angular.fromJson(data);});

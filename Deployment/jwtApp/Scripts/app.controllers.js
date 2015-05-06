@@ -5,7 +5,6 @@ import signup from 'Scripts/Components/signup/signupCtrl.js';
 import associate from 'Scripts/Components/associate/associateCtrl.js';
 import root from 'Scripts/Layouts/root/rootCtrl.js';
 
-
 var moduleName='app.controllers';
 
 angular.module(moduleName,[])
@@ -14,6 +13,5 @@ angular.module(moduleName,[])
 .controller('signupCtrl', signup)
 .controller('associateCtrl', associate)
 .controller('rootCtrl', root);
-
 
 export default moduleName;
