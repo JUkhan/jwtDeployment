@@ -7,18 +7,21 @@ class signupCtrl
        	this.authService=authService;
       
       	this.savedSuccessfully = false;
-   		this.message = "";
+   		this.message = '';
         this.registration = {
-          userName: "",
-          password: "",
-          confirmPassword: ""
+          userName:'',
+          password: '',
+          confirmPassword: '',
+          firstName:'',
+          lastName:'', 
+          email:'', phoneNumber:''
         };
 	}
   
   	signUp() {
       
       	let that=this;
-
+        
         that.authService.saveRegistration(that.registration).then(function (response) {
 
             that.savedSuccessfully = true;
