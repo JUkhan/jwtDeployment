@@ -1,0 +1,33 @@
+
+<div class="performance">
+    <div class="well" ng-switch on="vm.NAV_NAME">
+        <div  ng-switch-when="nav1">
+             nav1
+         </div>
+         <div  ng-switch-when="nav2">
+             nav2
+         </div>
+         <div  ng-switch-when="nav3">
+             nav3
+         </div>
+    </div>
+    <div class="content" ng-hide="vm.isHidden" ng-switch on="vm.NAV_NAME">
+         <div  ng-switch-when="nav1">
+             nav1
+         </div>
+         <div  ng-switch-when="nav2">
+             nav2
+         </div>
+         <div  ng-switch-when="nav3">
+             nav3
+         </div>
+    </div>
+    <div ng-class="{options:!vm.isHidden}">
+        <div class="pull-right success" >
+            <input type="button" value="Options" ng-click="vm.isHidden=!vm.isHidden"/>
+        </div>
+    </div>
+</div>
+
+<br>
+<div ui-view></div>
