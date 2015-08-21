@@ -619,3 +619,104 @@ File name: 'E:\FFV\jwtInAction\JWT.Inaction\jwtApp\Scripts\Layouts\root\signup.h
 2015-08-19 04:08:22,363 [223] INFO  Jwtex.JwtExController - files found: 3
 2015-08-19 04:08:38,835 [225] INFO  Jwtex.JwtExController - name:widget1, mode:Widgets
 2015-08-19 04:08:38,835 [225] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 06:46:51,581 [22] INFO  Jwtex.JwtExController - name:jwtFilter, mode:Components
+2015-08-20 06:46:51,646 [22] INFO  Jwtex.JwtExController - files found: 1
+2015-08-20 09:32:23,819 [5] INFO  Jwtex.JwtExController - name:jwtComponents, mode:Modules
+2015-08-20 09:32:23,882 [5] INFO  Jwtex.JwtExController - files found: 14
+2015-08-20 09:34:33,553 [32] INFO  Jwtex.JwtExController - name:spark, mode:Components
+2015-08-20 09:34:33,555 [32] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 09:34:37,141 [24] INFO  Jwtex.JwtExController - name:tableCom, mode:Components
+2015-08-20 09:34:37,142 [24] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 09:36:46,559 [43] INFO  Jwtex.JwtExController - name:performance, mode:Layouts
+2015-08-20 09:36:46,560 [43] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 09:42:35,641 [56] INFO  jwt.internals.jwtAppManager - home
+2015-08-20 09:55:26,665 [72] INFO  Jwtex.JwtExController - name:jwtComponents, mode:Modules
+2015-08-20 09:55:26,700 [72] INFO  Jwtex.JwtExController - files found: 14
+2015-08-20 12:26:26,173 [70] INFO  Jwtex.JwtExController - name:spark, mode:Components
+2015-08-20 12:26:26,174 [70] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 12:28:13,644 [49] INFO  Jwtex.JwtExController - name:tableCom, mode:Components
+2015-08-20 12:28:13,644 [49] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 12:28:32,831 [86] INFO  Jwtex.JwtExController - name:spark, mode:Components
+2015-08-20 12:28:32,832 [86] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 12:31:25,108 [49] INFO  Jwtex.JwtExController - name:widget1, mode:Widgets
+2015-08-20 12:31:25,109 [49] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 12:32:59,329 [96] INFO  Jwtex.JwtExController - name:widget1, mode:Widgets
+2015-08-20 12:32:59,330 [96] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 13:17:08,800 [240] INFO  Jwtex.JwtExController - name:spark, mode:Components
+2015-08-20 13:17:08,801 [240] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 13:29:47,284 [278] INFO  Jwtex.JwtExController - name:spark, mode:Components
+2015-08-20 13:29:47,285 [278] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 13:32:03,763 [290] INFO  Jwtex.JwtExController - name:widget1, mode:Widgets
+2015-08-20 13:32:03,764 [290] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 13:45:46,416 [335] INFO  Jwtex.JwtExController - name:sparkLine, mode:Components
+2015-08-20 13:45:46,417 [335] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 13:45:55,087 [340] INFO  Jwtex.JwtExController - name:spark, mode:Components
+2015-08-20 13:45:55,088 [340] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 13:46:07,759 [346] INFO  Jwtex.JwtExController - name:sparkLine, mode:Components
+2015-08-20 13:46:07,760 [346] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 13:47:04,623 [355] INFO  Jwtex.JwtExController - name:widget2, mode:Widgets
+2015-08-20 13:47:04,624 [355] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 13:47:06,942 [352] INFO  Jwtex.JwtExController - name:widget1, mode:Widgets
+2015-08-20 13:47:06,942 [352] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 13:51:29,795 [371] INFO  Jwtex.JwtExController - name:spark, mode:Components
+2015-08-20 13:51:29,796 [371] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 13:51:33,210 [365] INFO  Jwtex.JwtExController - name:sparkLine, mode:Components
+2015-08-20 13:51:33,211 [365] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 13:54:00,697 [368] INFO  Jwtex.JwtExController - name:widget1, mode:Widgets
+2015-08-20 13:54:00,698 [368] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 16:14:17,572 [11] INFO  jwt.internals.jwtAppManager - home
+2015-08-20 16:15:12,540 [24] INFO  Jwtex.JwtExController - name:sparkLine, mode:Components
+2015-08-20 16:15:12,543 [24] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 16:31:46,457 [78] INFO  Jwtex.JwtExController - name:widget1, mode:Widgets
+2015-08-20 16:31:46,459 [78] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 16:33:34,600 [85] INFO  Jwtex.JwtExController - name:undefined, mode:Base
+2015-08-20 16:33:34,601 [85] INFO  Jwtex.JwtExController - files found: 5
+2015-08-20 16:35:14,062 [87] INFO  Jwtex.JwtExController - name:widget1, mode:Widgets
+2015-08-20 16:35:14,063 [87] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 16:38:57,726 [91] INFO  Jwtex.JwtExController - name:perItem, mode:Components
+2015-08-20 16:38:57,727 [91] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 16:40:10,298 [94] INFO  Jwtex.JwtExController - name:sparkLine, mode:Components
+2015-08-20 16:40:10,299 [94] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 16:40:23,163 [108] INFO  Jwtex.JwtExController - name:perItem, mode:Components
+2015-08-20 16:40:23,163 [108] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 16:41:17,538 [106] INFO  Jwtex.JwtExController - name:tableCom, mode:Components
+2015-08-20 16:41:17,539 [106] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 17:38:55,082 [75] INFO  jwt.internals.jwtAppManager - home
+2015-08-20 17:39:03,090 [81] INFO  Jwtex.JwtExController - name:tableCom, mode:Components
+2015-08-20 17:39:03,092 [81] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 22:20:02,662 [261] INFO  Jwtex.JwtExController - name:sparkLine, mode:Components
+2015-08-20 22:20:02,717 [261] INFO  Jwtex.JwtExController - files found: 3
+2015-08-20 22:53:58,484 [319] INFO  Jwtex.JwtExController - name:perItem, mode:Components
+2015-08-20 22:53:58,486 [319] INFO  Jwtex.JwtExController - files found: 3
+2015-08-21 05:04:00,129 [363] INFO  Jwtex.JwtExController - name:sparkLine, mode:Components
+2015-08-21 05:04:00,129 [363] INFO  Jwtex.JwtExController - files found: 3
+2015-08-21 08:57:42,000 [363] INFO  Jwtex.JwtExController - name:perItem, mode:Components
+2015-08-21 08:57:42,001 [363] INFO  Jwtex.JwtExController - files found: 3
+2015-08-21 10:36:15,427 [350] INFO  Jwtex.JwtExController - name:widget1, mode:Widgets
+2015-08-21 10:36:15,427 [350] INFO  Jwtex.JwtExController - files found: 3
+2015-08-21 10:37:33,560 [369] INFO  Jwtex.JwtExController - name:perItem, mode:Components
+2015-08-21 10:37:33,561 [369] INFO  Jwtex.JwtExController - files found: 3
+2015-08-21 12:31:58,257 [7] INFO  Jwtex.JwtExController - name:perTable, mode:Components
+2015-08-21 12:31:58,340 [7] INFO  Jwtex.JwtExController - files found: 3
+2015-08-21 17:49:04,846 [43] INFO  Jwtex.JwtExController - name:perItem, mode:Components
+2015-08-21 17:49:04,852 [43] INFO  Jwtex.JwtExController - files found: 3
+2015-08-21 17:49:15,134 [42] INFO  Jwtex.JwtExController - name:perTable, mode:Components
+2015-08-21 17:49:15,135 [42] INFO  Jwtex.JwtExController - files found: 3
+2015-08-21 18:09:29,262 [72] INFO  Jwtex.JwtExController - name:perItem, mode:Components
+2015-08-21 18:09:29,263 [72] INFO  Jwtex.JwtExController - files found: 3
+2015-08-21 18:25:58,345 [120] INFO  Jwtex.JwtExController - name:perTable, mode:Components
+2015-08-21 18:25:58,346 [120] INFO  Jwtex.JwtExController - files found: 3
+2015-08-21 18:54:04,411 [174] INFO  Jwtex.JwtExController - name:perItem, mode:Components
+2015-08-21 18:54:04,412 [174] INFO  Jwtex.JwtExController - files found: 3
+2015-08-21 19:11:11,730 [193] INFO  Jwtex.JwtExController - name:perItem, mode:Components
+2015-08-21 19:11:11,768 [193] INFO  Jwtex.JwtExController - files found: 3
+2015-08-21 19:16:06,842 [197] INFO  Jwtex.JwtExController - name:sparkLine, mode:Components
+2015-08-21 19:16:06,844 [197] INFO  Jwtex.JwtExController - files found: 3
+2015-08-21 19:18:00,295 [189] INFO  Jwtex.JwtExController - name:performance, mode:Layouts
+2015-08-21 19:18:00,296 [189] INFO  Jwtex.JwtExController - files found: 3
+2015-08-21 19:18:11,890 [193] INFO  Jwtex.JwtExController - name:root, mode:Layouts
+2015-08-21 19:18:11,890 [193] INFO  Jwtex.JwtExController - files found: 3
+2015-08-21 19:23:27,548 [186] INFO  Jwtex.JwtExController - name:perItem, mode:Components
+2015-08-21 19:23:27,549 [186] INFO  Jwtex.JwtExController - files found: 3
+2015-08-21 19:34:25,442 [185] INFO  Jwtex.JwtExController - name:widget1, mode:Widgets
+2015-08-21 19:34:25,443 [185] INFO  Jwtex.JwtExController - files found: 3
