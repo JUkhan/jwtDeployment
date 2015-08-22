@@ -11,11 +11,12 @@
         if (authData) {
             config.headers.Authorization = 'Bearer ' + authData.token;
         }
-
+        overlay(1);
         return config;
     }
 
     var _responseError = function (rejection) {
+        overlay(0);
         if (rejection.status === 401) {
             var authService = $injector.get('authService');
             var authData = localStorageService.get('authorizationData');
@@ -31,7 +32,12 @@
         }
         return $q.reject(rejection);
     }
-
+    
+    var _response= function(response) {
+            overlay(0);
+            return response;
+        }
+    authInterceptorServiceFactory.response=_response;
     authInterceptorServiceFactory.request = _request;
     authInterceptorServiceFactory.responseError = _responseError;
 

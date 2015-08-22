@@ -10,8 +10,9 @@ class widget2Ctrl extends BaseCtrl
 		this.country=stateParams.country;
 	
 		this.initFilter();
-		
+	
 		this.loadData();
+		
 	}
 	setChart(val){
 	    this.chart=val;

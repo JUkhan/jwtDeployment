@@ -8,7 +8,9 @@ class perItem
 	}
 	controller($scope){
 	    $scope.itemClick=function(data){
-	        $scope.options.selectableItem=data.title;
+	        if(!angular.isUndefined($scope.options.selectableItem)){
+	            $scope.options.selectableItem=data.title;
+	        }
 	        if($scope.options && $scope.options.onClick){
 	            $scope.options.onClick(data);
 	        }
@@ -69,7 +71,7 @@ class perItem
     }
      getTpl_3(scope){
         var tpl=[];
-        tpl.push('<div class="per-item"><div class="title"><strong ng-bind="data.title"></strong></div><div class="tpl3" ng-click="itemClick(data)">');
+        tpl.push('<div class="per-item"><div class="title"><strong ng-bind="data.title"></strong></div><div class="tpl3" ng-class="{selected:options.selectableItem===data.title}" ng-click="itemClick(data)">');
        
         tpl.push('<div class="itemst" ng-repeat="item in data.sparkList">');
         tpl.push('<span class="min" ng-bind="item.min"></span>');

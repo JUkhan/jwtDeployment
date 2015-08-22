@@ -303,4 +303,6 @@
 2015-08-21 21:19:16,081 [50] INFO  Jwtex.JwtComponentController - E:\FFV\jwtInAction\JWT.Inaction\jwtComponent\Scripts\ComDemoApi\perTable\code.html
 2015-08-21 21:19:38,264 [52] INFO  Jwtex.JwtComponentController - E:\FFV\jwtInAction\JWT.Inaction\jwtComponent\Scripts\ComDemoApi\perTable\api.html
 2015-08-21 21:19:41,264 [46] INFO  Jwtex.JwtComponentController - E:\FFV\jwtInAction\JWT.Inaction\jwtComponent\Scripts\ComDemoApi\perTable\api.html
-2015-08-21 21:28:21,336 [33] INFO  Jwtex.JwtComponentController - C:\deployment\jwtComponents\Scripts\ComDemoApi\perItem\code.html
+2015-08-22 21:40:55,568 [44] INFO  Jwtex.JwtComponentController - C:\deployment\jwtComponents\Scripts\ComDemoApi\perItem\code.html
+2015-08-22 21:41:43,892 [23] INFO  Jwtex.JwtExController - name:perItem, mode:Components
+2015-08-22 21:41:43,894 [23] INFO  Jwtex.JwtExController - files found: 3

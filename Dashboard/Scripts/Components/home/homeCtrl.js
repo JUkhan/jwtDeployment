@@ -24,7 +24,7 @@ class homeCtrl extends BaseCtrl
           ];
           
         var opt={
-      	       loadingText:'loading...',filter:true,limit:25, 
+      	       loadingText:'loading...',filter:true,limit:5, 
       	      columns:[{field:'name', onClick:row=>{alert(row.name)}}, {field:'age', sort:true}, {field:'price'},
       	      {field:'selling', spark:true, options:{type:'line'}}
       	      ]
