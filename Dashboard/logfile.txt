@@ -720,3 +720,77 @@ File name: 'E:\FFV\jwtInAction\JWT.Inaction\jwtApp\Scripts\Layouts\root\signup.h
 2015-08-21 19:23:27,549 [186] INFO  Jwtex.JwtExController - files found: 3
 2015-08-21 19:34:25,442 [185] INFO  Jwtex.JwtExController - name:widget1, mode:Widgets
 2015-08-21 19:34:25,443 [185] INFO  Jwtex.JwtExController - files found: 3
+2015-08-22 04:50:14,216 [20] INFO  Jwtex.JwtExController - name:performance, mode:Layouts
+2015-08-22 04:50:14,459 [20] INFO  Jwtex.JwtExController - files found: 3
+2015-08-22 09:11:12,731 [120] INFO  Jwtex.JwtExController - name:widget1, mode:Widgets
+2015-08-22 09:11:12,782 [120] INFO  Jwtex.JwtExController - files found: 3
+2015-08-22 09:28:43,185 [96] INFO  jwt.internals.jwtAppManager - nav2
+2015-08-22 09:30:41,437 [120] INFO  Jwtex.JwtExController - name:performance, mode:Layouts
+2015-08-22 09:30:41,438 [120] INFO  Jwtex.JwtExController - files found: 3
+2015-08-22 09:30:41,511 [116] ERROR Jwtex.JwtExController - System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\deployment\Dashboard\Scripts\Layouts\performance\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+   at jwt.CodeGen.JwtFile.Write(String path, String content)
+   at Jwtex.JwtExController.SaveFile(String mode, String directoryName, String fileName, String content)
+2015-08-22 09:30:41,511 [124] ERROR Jwtex.JwtExController - System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\deployment\Dashboard\Scripts\Layouts\performance\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+   at jwt.CodeGen.JwtFile.Write(String path, String content)
+   at Jwtex.JwtExController.SaveFile(String mode, String directoryName, String fileName, String content)
+2015-08-22 09:37:20,825 [137] INFO  Jwtex.JwtExController - name:widget2, mode:Widgets
+2015-08-22 09:37:20,825 [137] INFO  Jwtex.JwtExController - files found: 3
+2015-08-22 10:11:11,627 [10] INFO  Jwtex.JwtExController - name:widget1, mode:Widgets
+2015-08-22 10:11:11,674 [10] INFO  Jwtex.JwtExController - files found: 4
+2015-08-22 10:12:36,885 [10] INFO  Jwtex.JwtExController - name:widget2, mode:Widgets
+2015-08-22 10:12:36,886 [10] INFO  Jwtex.JwtExController - files found: 3
+2015-08-22 10:13:50,219 [13] INFO  Jwtex.JwtExController - name:perTable, mode:Components
+2015-08-22 10:13:50,220 [13] INFO  Jwtex.JwtExController - files found: 3
+2015-08-22 10:14:01,005 [13] INFO  Jwtex.JwtExController - name:perItem, mode:Components
+2015-08-22 10:14:01,006 [13] INFO  Jwtex.JwtExController - files found: 3
+2015-08-22 10:14:48,389 [22] INFO  Jwtex.JwtExController - name:widget1, mode:Widgets
+2015-08-22 10:14:48,390 [22] INFO  Jwtex.JwtExController - files found: 4
+2015-08-22 10:15:10,595 [12] INFO  Jwtex.JwtExController - name:widget2, mode:Widgets
+2015-08-22 10:15:10,595 [12] INFO  Jwtex.JwtExController - files found: 4
+2015-08-22 10:15:44,317 [22] INFO  Jwtex.JwtExController - name:widget2, mode:Widgets
+2015-08-22 10:15:44,318 [22] INFO  Jwtex.JwtExController - files found: 4
+2015-08-22 10:31:57,465 [67] INFO  Jwtex.JwtExController - name:performance, mode:Layouts
+2015-08-22 10:31:57,466 [67] INFO  Jwtex.JwtExController - files found: 3
+2015-08-22 10:32:28,490 [70] INFO  Jwtex.JwtExController - name:widget2, mode:Widgets
+2015-08-22 10:32:28,491 [70] INFO  Jwtex.JwtExController - files found: 3
+2015-08-22 10:32:32,065 [66] INFO  Jwtex.JwtExController - name:widget1, mode:Widgets
+2015-08-22 10:32:32,066 [66] INFO  Jwtex.JwtExController - files found: 4
+2015-08-22 10:32:35,601 [65] INFO  Jwtex.JwtExController - name:widget2, mode:Widgets
+2015-08-22 10:32:35,602 [65] INFO  Jwtex.JwtExController - files found: 3
+2015-08-22 11:21:16,990 [207] INFO  Jwtex.JwtExController - name:widget1, mode:Widgets
+2015-08-22 11:21:16,991 [207] INFO  Jwtex.JwtExController - files found: 4
+2015-08-22 11:22:08,255 [204] ERROR Jwtex.JwtExController - System.IO.FileNotFoundException: Could not find file 'C:\deployment\Dashboard\Scripts\Directives\perItem\widget1.css'.
+File name: 'C:\deployment\Dashboard\Scripts\Directives\perItem\widget1.css'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at jwt.CodeGen.JwtFile.Read(String path)
+   at Jwtex.JwtExController.GetFileContent(String mode, String directoryName, String fileName)
+2015-08-22 11:22:20,546 [207] INFO  Jwtex.JwtExController - name:perTable, mode:Components
+2015-08-22 11:22:20,547 [207] INFO  Jwtex.JwtExController - files found: 3
+2015-08-22 11:22:35,987 [201] INFO  Jwtex.JwtExController - name:perItem, mode:Components
+2015-08-22 11:22:35,988 [201] INFO  Jwtex.JwtExController - files found: 3
+2015-08-22 11:28:19,553 [218] INFO  Jwtex.JwtExController - name:widget2, mode:Widgets
+2015-08-22 11:28:19,554 [218] INFO  Jwtex.JwtExController - files found: 3
+2015-08-22 11:47:02,260 [260] INFO  Jwtex.JwtExController - name:performance, mode:Layouts
+2015-08-22 11:47:02,261 [260] INFO  Jwtex.JwtExController - files found: 3
+2015-08-22 12:29:50,587 [324] INFO  Jwtex.JwtExController - name:performance, mode:Layouts
+2015-08-22 12:29:50,588 [324] INFO  Jwtex.JwtExController - files found: 3
+2015-08-22 12:32:48,489 [331] INFO  Jwtex.JwtExController - name:widget1, mode:Widgets
+2015-08-22 12:32:48,490 [331] INFO  Jwtex.JwtExController - files found: 5
+2015-08-22 12:33:49,041 [340] INFO  Jwtex.JwtExController - name:widget1, mode:Widgets
+2015-08-22 12:33:49,042 [340] INFO  Jwtex.JwtExController - files found: 4

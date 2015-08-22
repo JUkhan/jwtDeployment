@@ -10,7 +10,7 @@ class widget1Ctrl extends BaseCtrl
 		scope.$parent.vm.NAV_NAME='nav1';
 	
 	
-		this.options={tplId:2, itemLimit:4, categoryList:['Share', 'Sales', 'Growth','Above/Below'], onClick:item=>{this.location.path('/root/performance/nav2');}};
+		this.options={tplId:2, itemLimit:4, categoryList:['Share', 'Sales', 'Growth','Above/Below'], onClick:item=>{this.location.path('/root/performance/nav2/'+item.title);}};
 		this.list=[
 		    {title:'Belgium', colorCode:'red', chart:'Absolute', period:'May/May', from:'JAN-2014', to:'MAR-2014',volume:'SU',
 		    sparkList:[
@@ -55,11 +55,15 @@ class widget1Ctrl extends BaseCtrl
 		    ];
 	}
 	
-	show(data){
-	    alert(data.country);
-	}
 	filterValueChanged(obj){
-	    console.log(obj);
+	   switch (obj.name) {
+	       case 'period':
+	           this.period=obj.newValue;
+	           break;
+	       
+	       default:
+	           // code
+	   }
 	}
 }
 widget1Ctrl.$inject=['$scope', 'widget1Svc', '$location'];

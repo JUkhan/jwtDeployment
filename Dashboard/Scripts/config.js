@@ -12,7 +12,7 @@ export default function config(stateprovider, routeProvider){
 	stateprovider.state('root.WidgetViewNav',{url:'/WidgetViewNav',templateUrl:'template/WidgetViewRights',controller:'WidgetViewRightsCtrl as vm'});
 	stateprovider.state('root.userInRoles',{url:'/userInRoles',templateUrl:'template/userInRoles',controller:'userInRolesCtrl as vm'});
 	stateprovider.state('root.performance.nav1',{url:'/nav1',templateUrl:'template/widget1',controller:'widget1Ctrl as vm'});
-	stateprovider.state('root.performance.nav2',{url:'/nav2',templateUrl:'template/widget2',controller:'widget2Ctrl as vm'});
+	stateprovider.state('root.performance.nav2',{url:'/nav2/:country',templateUrl:'template/widget2',controller:'widget2Ctrl as vm'});
 	stateprovider.state('root.performance.nav3',{url:'/nav3',templateUrl:'template/widget3',controller:'widget3Ctrl as vm'});
 }
 config.$inject=['$stateProvider', '$urlRouterProvider'];

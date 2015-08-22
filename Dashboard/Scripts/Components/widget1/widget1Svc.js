@@ -6,7 +6,7 @@ class widget1Svc extends BaseSvc
 		super(http);
 		this.http= http;
 		this.apiServiceBaseUri=ngAuthSettings.apiServiceBaseUri;
-		console.log(this.apiServiceBaseUri);
+		//console.log(this.apiServiceBaseUri);
 	}
 	static widget1Factory(http, ngAuthSettings)	{
 		return new widget1Svc(http, ngAuthSettings);

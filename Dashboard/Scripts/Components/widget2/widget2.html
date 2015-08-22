@@ -1,1 +1,35 @@
-<h3>widget Name : {{vm.title}}</h3>
+
+<div class="widget-title"><strong>{{vm.country}}</strong> | overview</div>
+
+<div>{{vm.measure}} ({{vm.mVolume}}) Marker Coverage ({{vm.marketCoverage}})</div>
+<br>
+
+<per-table data="vm.list" options="vm.options"></per-table>
+
+<div class="pull-right">
+    Chart : <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-default" ng-class="{active:vm.chart==='Dynamics'}" ng-click="vm.setChart('Dynamics')">
+                    <input type="radio" ng-model="vm.chart" jwt-filter value="Dynamics" /> Dynamics
+                </label> 
+                <label class="btn btn-default" ng-class="{active:vm.chart==='Absolute'}" ng-click="vm.setChart('Absolute')">
+                    <input type="radio" ng-model="vm.chart"  value="Absolute" /> Absolute
+                </label> 
+                <label class="btn btn-default" ng-class="{active:vm.chart==='Trend'}" ng-click="vm.setChart('Trend')">
+                    <input type="radio" ng-model="vm.chart" value="Trend" /> Trend
+                </label> 
+             </div>  
+</div>
+
+<div class="clearfix"></div>
+
+<div class="widget-title"> <strong>{{vm.country}}</strong> | {{vm.category}}</div>
+
+<div class="row">
+    <div class="col-md-3">
+        <per-item data="vm.marketSummery", options="{tplId:3, onClick:vm.goWidget3}"></per-item>
+    </div>
+    <div class="col-md-9">
+        <per-table data="vm.categoryDetails", options="{tplId:3, onClick:vm.goWidget3}"></per-table>
+    </div>
+</div>
+

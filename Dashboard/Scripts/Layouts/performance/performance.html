@@ -1,26 +1,100 @@
 
 <div class="performance">
     <div class="well" ng-switch on="vm.NAV_NAME">
+       
         <div  ng-switch-when="nav1">
-             nav1
+                 
+            Measure : <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-default" ng-class="{active:vm.measure==='Volume'}" ng-click="vm.setMesaure('Volume')">
+                    <input type="radio"  ng-model="vm.measure" jwt-filter value="Volume" /> Volume
+                </label> 
+                <label class="btn btn-default" ng-class="{active:vm.measure==='Value'}" ng-click="vm.setMesaure('Value')">
+                    <input type="radio"  ng-model="vm.measure" value="Value" /> Value
+                </label> 
+             </div> 
+            Chart : <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-default" ng-class="{active:vm.chart==='Dynamics'}" ng-click="vm.setChart('Dynamics')">
+                    <input type="radio" ng-model="vm.chart" jwt-filter value="Dynamics" /> Dynamics
+                </label> 
+                <label class="btn btn-default" ng-class="{active:vm.chart==='Absolute'}" ng-click="vm.setChart('Absolute')">
+                    <input type="radio" ng-model="vm.chart"  value="Absolute" /> Absolute
+                </label> 
+                <label class="btn btn-default" ng-class="{active:vm.chart==='Trend'}" ng-click="vm.setChart('Trend')">
+                    <input type="radio" ng-model="vm.chart" value="Trend" /> Trend
+                </label> 
+             </div>  
+             
+              Comparison : <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-default"  ng-class="{active:vm.comparison==='Year Ago'}" ng-click="vm.setComparison('Year Ago')">
+                    <input type="radio"  ng-model="vm.comparison" jwt-filter value="Year Ago" /> Year Ago
+                </label> 
+                <label class="btn btn-default"  ng-class="{active:vm.comparison==='Prev. Month'}" ng-click="vm.setComparison('Prev. Month')">
+                    <input type="radio"  ng-model="vm.comparison" value="Prev. Month" /> Prev. Month
+                </label> 
+             </div> 
+              Period : <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-default" ng-class="{active:vm.period==='Month'}" ng-click="vm.setPeriod('Month')">
+                    <input type="radio"  ng-model="vm.period" jwt-filter value="Month" /> Month
+                </label> 
+                <label class="btn btn-default" ng-class="{active:vm.period==='MAT'}" ng-click="vm.setPeriod('MAT')">
+                    <input type="radio"  ng-model="vm.period"  value="MAT" /> MAT
+                </label> 
+             </div> 
+           
          </div>
          <div  ng-switch-when="nav2">
-             nav2
+             Measure : <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-default" ng-class="{active:vm.measure==='Volume'}" ng-click="vm.setMesaure('Volume')">
+                    <input type="radio"  ng-model="vm.measure" jwt-filter value="Volume" /> Volume
+                </label> 
+                <label class="btn btn-default" ng-class="{active:vm.measure==='Value'}" ng-click="vm.setMesaure('Value')">
+                    <input type="radio"  ng-model="vm.measure" value="Value" /> Value
+                </label> 
+             </div> 
+             
+              Comparison : <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-default"  ng-class="{active:vm.comparison==='Year Ago'}" ng-click="vm.setComparison('Year Ago')">
+                    <input type="radio"  ng-model="vm.comparison" jwt-filter value="Year Ago" /> Year Ago
+                </label> 
+                <label class="btn btn-default"  ng-class="{active:vm.comparison==='Prev. Month'}" ng-click="vm.setComparison('Prev. Month')">
+                    <input type="radio"  ng-model="vm.comparison" value="Prev. Month" /> Prev. Month
+                </label> 
+             </div> 
+              Period : <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-default" ng-class="{active:vm.period==='Month'}" ng-click="vm.setPeriod('Month')">
+                    <input type="radio"  ng-model="vm.period" jwt-filter value="Month" /> Month
+                </label> 
+                <label class="btn btn-default" ng-class="{active:vm.period==='MAT'}" ng-click="vm.setPeriod('MAT')">
+                    <input type="radio"  ng-model="vm.period"  value="MAT" /> MAT
+                </label> 
+             </div> 
          </div>
          <div  ng-switch-when="nav3">
              nav3
          </div>
     </div>
-    <div class="content" ng-hide="vm.isHidden" ng-switch on="vm.NAV_NAME">
-         <div  ng-switch-when="nav1">
-             nav1
-         </div>
-         <div  ng-switch-when="nav2">
-             nav2
-         </div>
-         <div  ng-switch-when="nav3">
-             nav3
-         </div>
+    <div class="content" ng-hide="vm.isHidden" >
+        <div class="row">
+            <div class="col-md-2">
+                 <strong>Measures :</strong><br>
+                 <span>{{vm.measure}} : </span>
+                 <select ng-model="vm.mVolume" jwt-filter>
+                     <option value="SU">SU</option>
+                     <option value="Units">Units</option>
+                 </select>
+            </div>
+             <div class="col-md-2">
+                 <strong>Limiting Filters :</strong><br>
+                 <span>Market Coverage : </span>
+                 <select ng-model="vm.marketCoverage" jwt-filter>
+                     <option value="Indirect Only">Indirect Only</option>
+                     <option value="Total Retail">Total Retail</option>
+                     <option value="Total Hospital">Total Hospital</option>
+                     <option value="All Available">All Available</option>
+                 </select>
+            </div>
+        </div>
+        
     </div>
     <div ng-class="{options:!vm.isHidden}">
         <div class="pull-right success" >
