@@ -1,8 +1,9 @@
 
 class BaseCtrl{      
     constructor(scope){ 
-        
+        this.initDone=false;
         scope.$on('FilterValueChanged', function(event, obj){this.filterValueChanged(obj);}.bind(this));
+        setTimeout(function() {this.initDone=true;}.bind(this), 0);
     }
     filterValueChanged(obj){
      

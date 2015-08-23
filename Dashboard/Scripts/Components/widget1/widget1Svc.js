@@ -10,6 +10,7 @@ class widget1Svc extends BaseSvc
 		//console.log(this.apiServiceBaseUri);
 	}
 	getData(paramObj){
+	    
 	    overlay(1);
 	   var  defer=this.q.defer();
 	   setTimeout(function() {defer.resolve(this.getRes());overlay(0);}.bind(this), 1000);

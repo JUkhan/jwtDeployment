@@ -836,3 +836,9 @@ File name: 'C:\deployment\Dashboard\Scripts\Directives\perItem\widget1.css'
 2015-08-23 07:00:22,841 [71] INFO  Jwtex.JwtExController - files found: 5
 2015-08-23 09:58:50,680 [56] INFO  Jwtex.JwtExController - name:widget1, mode:Widgets
 2015-08-23 09:58:50,718 [56] INFO  Jwtex.JwtExController - files found: 4
+2015-08-23 14:00:57,412 [114] INFO  Jwtex.JwtExController - name:associate, mode:Widgets
+2015-08-23 14:00:57,414 [114] INFO  Jwtex.JwtExController - files found: 2
+2015-08-23 14:00:59,536 [107] INFO  Jwtex.JwtExController - name:undefined, mode:Base
+2015-08-23 14:00:59,537 [107] INFO  Jwtex.JwtExController - files found: 5
+2015-08-23 14:01:48,219 [113] INFO  Jwtex.JwtExController - name:widget1, mode:Widgets
+2015-08-23 14:01:48,220 [113] INFO  Jwtex.JwtExController - files found: 4

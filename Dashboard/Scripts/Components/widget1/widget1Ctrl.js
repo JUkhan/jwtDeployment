@@ -10,8 +10,6 @@ class widget1Ctrl extends BaseCtrl
 		this.initFilter();
 		
 		scope.$parent.vm.NAV_NAME='nav1';
-	
-	
 		this.options={tplId:2, itemLimit:4, categoryList:['Share', 'Sales', 'Growth','Above/Below'],
 		       onClick:item=>{this.location.path('/root/performance/nav2/'+item.title);}
 		};
@@ -22,17 +20,16 @@ class widget1Ctrl extends BaseCtrl
 	    var paramObj={period:this.period, comparison:this.comparison, chart:this.chart, 
 	    measure:this.measure, marketCoverage:this.marketCoverage, mVolume:this.mVolume};
 	    
-	  this.svc.getData(paramObj).then(res=>{this.list=res; this.initDone=true;});
+	    this.svc.getData(paramObj).then(res=>{this.list=res;});
 	}
 	filterValueChanged(obj){
 	   switch (obj.name) {
 	       case 'period':
 	           this.period=obj.newValue;
 	           break;
-	       
-	       default:
-	           // code
+	      
 	   }
+	   
 	   if(this.initDone) this.loadData();
 	  
 	}
