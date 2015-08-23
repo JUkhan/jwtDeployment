@@ -27,7 +27,7 @@ class perTable
     getTemplate(scope){
 	    var tpl=[],len=scope.data.length, count=0, itemLimit=scope.options.itemLimit||4,  itemArr=[];
 	    scope.viewData=[];
-	    if(len==0){ return '<div class="alert alert-warning">No Data Found</div>'; }
+	    if(len==0){ return '<div class="alert alert-warning">Data Not Found</div>'; }
 	    while(count<len){
 	        if(itemArr.length===itemLimit){
 	             scope.viewData.push(itemArr);

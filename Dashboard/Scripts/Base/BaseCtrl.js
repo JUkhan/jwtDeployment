@@ -1,6 +1,7 @@
 
 class BaseCtrl{      
-    constructor(scope){        
+    constructor(scope){ 
+        
         scope.$on('FilterValueChanged', function(event, obj){this.filterValueChanged(obj);}.bind(this));
     }
     filterValueChanged(obj){
@@ -18,6 +19,7 @@ class BaseCtrl{
                 }
             }
         }
+       
     }
     syncCall(g){
         let it=g(),ret;
