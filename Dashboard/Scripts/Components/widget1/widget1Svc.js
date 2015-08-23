@@ -9,11 +9,10 @@ class widget1Svc extends BaseSvc
 		this.q=q;
 		//console.log(this.apiServiceBaseUri);
 	}
-	getData(paramObj){
-	    
-	    overlay(1);
+	getData(paramObj){	    
+	   
 	   var  defer=this.q.defer();
-	   setTimeout(function() {defer.resolve(this.getRes());overlay(0);}.bind(this), 1000);
+	   setTimeout(function() {defer.resolve(this.getRes());}.bind(this), 100);
 	   return defer.promise;
 	}
 	getRes(){
