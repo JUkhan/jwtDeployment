@@ -842,3 +842,25 @@ File name: 'C:\deployment\Dashboard\Scripts\Directives\perItem\widget1.css'
 2015-08-23 14:00:59,537 [107] INFO  Jwtex.JwtExController - files found: 5
 2015-08-23 14:01:48,219 [113] INFO  Jwtex.JwtExController - name:widget1, mode:Widgets
 2015-08-23 14:01:48,220 [113] INFO  Jwtex.JwtExController - files found: 4
+2015-08-31 20:16:13,858 [8] INFO  Jwtex.JwtExController - name:undefined, mode:Base
+2015-08-31 20:16:14,137 [8] INFO  Jwtex.JwtExController - files found: 5
+2015-08-31 20:22:00,207 [26] INFO  Jwtex.JwtExController - name:widget1, mode:Widgets
+2015-08-31 20:22:00,208 [26] INFO  Jwtex.JwtExController - files found: 4
+2015-08-31 20:22:18,430 [8] INFO  Jwtex.JwtExController - name:home, mode:Widgets
+2015-08-31 20:22:18,431 [8] INFO  Jwtex.JwtExController - files found: 3
+2015-08-31 20:24:44,812 [26] INFO  Jwtex.JwtExController - name:undefined, mode:Base
+2015-08-31 20:24:44,813 [26] INFO  Jwtex.JwtExController - files found: 5
+2015-08-31 20:27:21,331 [23] INFO  Jwtex.JwtExController - name:home, mode:Widgets
+2015-08-31 20:27:21,332 [23] INFO  Jwtex.JwtExController - files found: 3
+2015-08-31 20:28:21,643 [25] INFO  Jwtex.JwtExController - name:undefined, mode:Base
+2015-08-31 20:28:21,644 [25] INFO  Jwtex.JwtExController - files found: 5
+2015-08-31 22:18:38,276 [7] INFO  Jwtex.JwtExController - name:undefined, mode:Base
+2015-08-31 22:18:38,280 [7] INFO  Jwtex.JwtExController - files found: 5
+2015-09-03 05:07:06,578 [21] INFO  Jwtex.JwtExController - name:undefined, mode:Base
+2015-09-03 05:07:06,715 [21] INFO  Jwtex.JwtExController - files found: 5
+2015-09-03 05:23:58,776 [52] INFO  Jwtex.JwtExController - name:home, mode:Widgets
+2015-09-03 05:23:58,777 [52] INFO  Jwtex.JwtExController - files found: 3
+2015-09-03 05:42:27,051 [105] INFO  Jwtex.JwtExController - name:widget1, mode:Widgets
+2015-09-03 05:42:27,052 [105] INFO  Jwtex.JwtExController - files found: 4
+2015-09-03 05:50:53,200 [130] INFO  Jwtex.JwtExController - name:home, mode:Widgets
+2015-09-03 05:50:53,202 [130] INFO  Jwtex.JwtExController - files found: 3

@@ -10,11 +10,12 @@ import jwtComponents from 'Scripts/Modules/jwtComponents/jwtComponents.js';
 
 var moduleName='app'; 
 
-angular.module(moduleName,['ui.router', 'ngResource', 'LocalStorageModule', 'angular-loading-bar','highcharts-ng', controllers, services, directives, filters, jwtComponents])
+angular.module(moduleName,['ui.router', 'ngResource', 'LocalStorageModule', 'angular-cache', 'angular-loading-bar', 'highcharts-ng', controllers, services, directives, filters, jwtComponents])
     .factory('authInterceptorService', authInterceptorService)
     .factory('authService', authService)
     .config(config)
     .config(function ($httpProvider) {
+        //$httpProvider.defaults.cache=true;
         $httpProvider.interceptors.push('authInterceptorService');
     })
     .constant('ngAuthSettings', {
@@ -24,9 +25,9 @@ angular.module(moduleName,['ui.router', 'ngResource', 'LocalStorageModule', 'ang
     })
     .run(['authService', '$rootScope', '$templateCache', function(authService, $rootScope, $templateCache) {
         authService.fillAuthData();
-        $rootScope.$on('$viewContentLoaded', function() {
-            $templateCache.removeAll();
-        });
+        //$rootScope.$on('$viewContentLoaded', function() {
+           // $templateCache.removeAll();
+        //});
     }]);
 
 export default moduleName;

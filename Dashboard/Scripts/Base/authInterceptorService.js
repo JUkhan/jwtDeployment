@@ -34,6 +34,7 @@
     }
     
     var _response= function(response) {
+       
             overlay(0);
             return response;
         }

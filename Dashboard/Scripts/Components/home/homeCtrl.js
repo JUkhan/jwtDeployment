@@ -43,9 +43,10 @@ class homeCtrl extends BaseCtrl
   	     {field:'price', type:'double', min:50000, max:500000},{field:'selling', type:'int', array:true, limit:15, min:1, max:15} ]  
   	   };
   	   
-  	   this.svc.getDummyData(data_config).success(res=>{
+  	  this.svc.getDummyData(data_config).then(res=>{
   	       this.grid.setData(angular.fromJson(res.data));
   	   });
+  	  
   	   
 	}
   	loadData(){
