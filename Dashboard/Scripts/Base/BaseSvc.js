@@ -1,47 +1,22 @@
 
 class BaseSvc
 {
-    constructor(http, CacheFactory, q){
-        
+    constructor(http, cacheFactory, q){
         this.http=http;
-        this.q=q;
+      	this.q=q;
+      	this.cacheFactory=cacheFactory;
         this.dataCache=null;
-        if (CacheFactory && !CacheFactory.get('dataCache')) {
-            this.dataCache = CacheFactory('dataCache');
+        if (cacheFactory && !cacheFactory.get('dataCache')) {
+            this.dataCache = cacheFactory('dataCache');
+        }else if(cacheFactory){
+             this.dataCache = cacheFactory.get('dataCache');
         }
     }
     postRequest(url, data){
-        var id=url+angular.toJson(data||{});
-        if(this.dataCache&& this.q){
-            var  defer=this.q.defer();
-            if(this.dataCache.get(id)){
-                defer.resolve(this.dataCache.get(id));
-            }else{
-                this.http.post(url, data||{}).success(res=>{
-                    this.dataCache.put(id, res);
-                    defer.resolve(res);
-                });
-            }
-	        return defer.promise;
-        }else{
-            return this.http.post(url, data||{});
-        }
+        return this.request({url:url, method:'POST', data:data});
     }
     getRequest(url){
-        if(this.dataCache&& this.q){
-            var  defer=this.q.defer();
-            if(this.dataCache.get(url)){
-                defer.resolve(this.dataCache.get(url));
-            }else{
-                this.http.post(url, data||{}).success(res=>{
-                    this.dataCache.put(url, res);
-                    defer.resolve(res);
-                });
-            }
-	        return defer.promise;
-        }else{
-            return this.http.get(url);
-        }
+         return this.request({url:url, method:'GET'});
     }
     request(config){
         var id=config.url+angular.toJson(config.data||{});
@@ -62,8 +37,8 @@ class BaseSvc
     }
     getDummyData(obj){ 
       
-           //return this.postRequest('Jwt/GetDummyData',obj);  
-           return this.request({url:'Jwt/GetDummyData', method:'POST', data:obj}); 
+           return this.postRequest('Jwt/GetDummyData',obj);  
+           //return this.request({url:'Jwt/GetDummyData', method:'POST', data:obj}); 
     }
     get_1(spName, spParams){
         

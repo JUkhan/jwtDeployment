@@ -864,3 +864,35 @@ File name: 'C:\deployment\Dashboard\Scripts\Directives\perItem\widget1.css'
 2015-09-03 05:42:27,052 [105] INFO  Jwtex.JwtExController - files found: 4
 2015-09-03 05:50:53,200 [130] INFO  Jwtex.JwtExController - name:home, mode:Widgets
 2015-09-03 05:50:53,202 [130] INFO  Jwtex.JwtExController - files found: 3
+2015-09-04 04:48:54,180 [245] INFO  Jwtex.JwtExController - name:undefined, mode:Base
+2015-09-04 04:48:54,186 [245] INFO  Jwtex.JwtExController - files found: 5
+2015-09-04 04:51:45,965 [234] INFO  Jwtex.JwtExController - name:home, mode:Widgets
+2015-09-04 04:51:45,966 [234] INFO  Jwtex.JwtExController - files found: 3
+2015-09-04 04:57:34,110 [221] INFO  Jwtex.JwtExController - name:undefined, mode:Base
+2015-09-04 04:57:34,111 [221] INFO  Jwtex.JwtExController - files found: 5
+2015-09-04 05:02:07,052 [221] INFO  Jwtex.JwtExController - name:home, mode:Widgets
+2015-09-04 05:02:07,052 [221] INFO  Jwtex.JwtExController - files found: 3
+2015-09-04 05:06:08,226 [207] INFO  Jwtex.JwtExController - name:undefined, mode:Base
+2015-09-04 05:06:08,226 [207] INFO  Jwtex.JwtExController - files found: 5
+2015-09-04 05:19:32,497 [180] INFO  Jwtex.JwtExController - name:widget1, mode:Widgets
+2015-09-04 05:19:32,498 [180] INFO  Jwtex.JwtExController - files found: 4
+2015-09-04 05:19:56,642 [172] INFO  Jwtex.JwtExController - name:home, mode:Widgets
+2015-09-04 05:19:56,643 [172] INFO  Jwtex.JwtExController - files found: 3
+2015-09-04 05:24:34,022 [173] INFO  Jwtex.JwtExController - name:undefined, mode:Base
+2015-09-04 05:24:34,023 [173] INFO  Jwtex.JwtExController - files found: 5
+2015-09-04 05:31:38,980 [156] INFO  Jwtex.JwtExController - name:undefined, mode:Base
+2015-09-04 05:31:38,981 [156] INFO  Jwtex.JwtExController - files found: 5
+2015-09-04 05:33:51,643 [158] INFO  Jwtex.JwtExController - name:home, mode:Widgets
+2015-09-04 05:33:51,644 [158] INFO  Jwtex.JwtExController - files found: 3
+2015-09-04 05:38:14,240 [149] INFO  Jwtex.JwtExController - name:undefined, mode:Base
+2015-09-04 05:38:14,241 [149] INFO  Jwtex.JwtExController - files found: 5
+2015-09-04 05:39:41,606 [161] INFO  Jwtex.JwtExController - name:home, mode:Widgets
+2015-09-04 05:39:41,607 [161] INFO  Jwtex.JwtExController - files found: 3
+2015-09-04 05:43:13,381 [148] INFO  Jwtex.JwtExController - name:root, mode:Layouts
+2015-09-04 05:43:13,382 [148] INFO  Jwtex.JwtExController - files found: 3
+2015-09-04 05:45:10,340 [148] INFO  Jwtex.JwtExController - name:widget3, mode:Widgets
+2015-09-04 05:45:10,341 [148] INFO  Jwtex.JwtExController - files found: 3
+2015-09-04 05:45:39,729 [145] INFO  Jwtex.JwtExController - name:home, mode:Widgets
+2015-09-04 05:45:39,730 [145] INFO  Jwtex.JwtExController - files found: 3
+2015-09-04 05:55:34,695 [152] INFO  Jwtex.JwtExController - name:undefined, mode:Base
+2015-09-04 05:55:34,696 [152] INFO  Jwtex.JwtExController - files found: 5

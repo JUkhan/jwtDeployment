@@ -4,7 +4,6 @@ class homeSvc extends BaseSvc
 {
 	constructor(http, ngAuthSettings, CacheFactory, q){
 		super(http, CacheFactory, q);
-	    this.http=http;
       	this.baseUrl=ngAuthSettings.apiServiceBaseUri;
 	}
   	getData(){
